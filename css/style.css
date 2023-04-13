@@ -1,0 +1,75 @@
+header h1.title {
+  text-align: center;
+  font-size: 35pt;
+  font-family: cursive;
+  color: cadetblue;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+header h3.desc{
+  text-align: center;
+  color: cornflowerblue;
+  margin-top: 0; 
+}
+body {
+    width: 70%; 
+    margin: auto;
+}
+a:link {
+  color: gray;
+}
+a:visited {
+  color: rgb(170, 3, 3) (158, 4, 4);
+}
+a:hover {
+  color: rebeccapurple;
+}
+a:active {
+  color: teal;
+}
+#navigation {  
+}
+p {
+  font-size: 110%;
+  color: black;
+}
+#contents {
+    float: center;
+}
+#contents .page p{
+   text-align: justify ;
+}
+#contents .page img {
+    float: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rosybrown;
+  box-shadow: 0 0 10px black;
+  font-family: sans-serif;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #fff;
+}
+footer {
+  text-align: center;
+  clear: both;
+  background: rosybrown;
+  box-shadow: 0 0 10px black ;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px 10px 0px 0px;
+}
